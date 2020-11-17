@@ -32,11 +32,10 @@ metadata:
     app: java-demo
 spec:
   selector:
-    project: www
     app: java-demo
   ports:
-  - name: http
     port: 80
+    protocol: TCP
     targetPort: 8080
   type: NodePort
 
