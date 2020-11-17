@@ -35,7 +35,7 @@ spec:
     project: www
     app: java-demo
   ports:
-  - name: TCP
+  - name: http
     port: 80
     targetPort: 8080
   type: NodePort
